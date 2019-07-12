@@ -1,5 +1,4 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
-import {flextree} from 'd3-flextree';
 
 function demoFlextree() {
   const data = [
@@ -9,7 +8,7 @@ function demoFlextree() {
       [ 4, 1 ],
     ],
   ];
-  const layout = flextree({
+  const layout = d3.flextree({
     children: data => {
       const kd = data.slice(2);
       return kd.length ? kd : null;

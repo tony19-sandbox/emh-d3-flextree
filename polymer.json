@@ -4,5 +4,8 @@
     "rules": [
       "polymer-3"
     ]
-  }
+  },
+  "extraDependencies": [
+    "./node_modules/d3-flextree/build/d3-flextree.js"
+  ]
 }
