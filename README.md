@@ -25,8 +25,11 @@ The simplest solution is probably to include `d3-flextree` in `index.html` befor
 For example:
 
 ```html
-<script src=""></script>
+<script src="./node_modules/d3-flextree/build/d3-flextree.js"></script>
+<script src="./app.js" type="module"></script>
 ```
+
+[Demo of `<script>`](https://github.com/tony19-sandbox/emh-d3-flextree/tree/cdn)
 
 ## Patch `d3-flextree`
 
